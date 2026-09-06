@@ -16,7 +16,7 @@ from PIL import Image
 # Configuration
 # -----------------------------
 APP_TITLE = "M&Q AI Document Checker"
-DEFAULT_MODEL = "gpt-5.6-luna"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 FEEDBACK_FILE = Path("feedback.csv")
 
 st.set_page_config(page_title=APP_TITLE, page_icon="🔎", layout="wide")
